@@ -3,7 +3,7 @@
 <body background="imagenes/cielo-cielo-de-fondo_19-133422.jpg">
 <head>
 
-	<title>Sistema de Inscripción Instituto de Educacion Especial "Los Angeles"</title>
+	<title>Datos Medicos</title>
 	<meta charset="utf-8">
 	<IMG SRC="imagenes/cab-general.jpg" width="1265" height="100" border="2">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,7 +13,7 @@
 
     <div class="container">
 		<header class="morado">
-			<h1>Sistema de Inscripción Instituto de Educación Especial "Los Ángeles"<h1>
+			<h1>Datos Médicos de los Estudiantes<h1>
 
 			<IMG SRC="imagenes/bienvenidos4.jpg" width="997" height="100" border="2">
 
@@ -29,17 +29,27 @@
 	</ul>
 	</nav>
 		<aside>
-			<div id="menu_vertical">
-  			<ul>
-   			<li><a href="LoginManager.html">>Ingresar Administrador</a></li>
-   			<li><a href="Inscriptions.html">>Inscripciones</a></li>
-   			<li><a href="Records.html">>Constancias</a></li>
-   			<li><a href="MedicalData.html">>Datos Medicos</a></li>
-   			<li><a href="EntryList.html">>Listado de Inscritos</a></li>
-  			</ul>
+			
  			
 		</aside>
-		<section>
+			<section class="login">
+			<fieldset>
+				<legend>Bienvenidos al Sistema de Inscripción</legend>
+			<form action="index.html" method="POST" autocomplete="off">
+
+			<div>
+			<label>Usuario</label>
+
+			<input type="text" name="user" value="" title="Ej yerimarcastillo@gmail.com" placeholder="Usuario"
+			>
+			</div>
+			<div>
+			<label>Contraseña</label>
+			<input type="password" name="pass" value="" title="123456" placeholder="Contraseña">
+			</div>
+			<input type="submit" value="Ingresar">
+			</form>
+			</fieldset>
 			
 		</section>
 		<footer id="page_footer">
