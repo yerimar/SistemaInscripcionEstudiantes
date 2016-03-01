@@ -1,0 +1,120 @@
+ body
+ {
+ 	background-image: url('../cielo-cielo-de-fondo_19-133422.jpg') no-repeat fixed center center;
+ 	background-size: cover;
+ }.container{
+	width: 1000px;
+	margin: auto;
+	
+}
+
+}
+nav ul{
+	width: 100%;
+	margin: auto;
+
+}
+nav ul li {
+	display: inline-block;
+	background: #ccccff;
+	padding: 6px 3px;
+	width: 150px;
+	text-align: center;
+}
+
+
+}
+
+aside{
+	float:left;
+	width: 20%;
+	background: black;
+}
+section{
+	float: left;
+	width: 80%;
+}
+
+section#login{
+background: #66ffff;
+width: 200px;
+display: inline-block;
+}
+fieldset{
+	width: 40%;
+	margin: center;
+	background: #ccccff;
+	margin: 170px auto;
+	text-align: center;
+	font-family: times;
+
+}
+legend{
+	background: #99CCFF;
+	padding: 2px 4px;
+	border-radius: 5px 
+}
+label{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+section#login{
+	width:100%;
+
+}
+
+.morado{
+	background: #ccccff;
+	text-align: center;
+
+}
+
+div#menu_vertical{
+	width: 50px;
+	margin-top: 50px;
+	
+}
+
+div#menu_vertical ul{
+	list-style: none;
+
+ 
+ }
+
+div#menu_vertical ul li{
+	margin-top: 15px;
+	font-family: Times;
+	font-size: 15px;
+	background: #ccccff;
+	width:160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #ccccff;
+	color:black;
+	text-align: center;
+ 
+ }
+ div#menu_vertical ul li:hover{
+ 	padding left:50px; 
+}
+footer{
+	margin-left: auto;
+	clear: both;
+	background: #ccccff;
+	text-align: center;
+}
+table{
+	width: 100%;
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 2px black solid;
+	text-align: center;
+}
+table, td, th{
+	border: 2px solid black;
+}
