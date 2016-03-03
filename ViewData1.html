@@ -26,16 +26,27 @@
 		<a href="History.html"><li>Historia</li></a>
 		</ul>
 		</nav>
+			<aside>
+			<div id="menu_vertical">
+  			<ul>
+   			<a href="LoginManager.html"><li>Ingresar Administrador</li></a>
+   			<a href="Inscriptions.html"><li>Inscripciones</li></a>
+   			<a href="Records.html"><li>Constancias</li></a>
+   			<a href="MedicalData.html"><li>Datos Medicos</li></a>
+   			<a href="EntryList.html"><li>Listado de Inscritos</li></a>
+  			</ul>
+ 			</div>
+			</aside>
 		
 		<section id="login2">
-			<article class="formulary">
+			<article id="formulary">
 				<form action="ViewData1.html" method="POST">
 					<fieldset class="tabla1" >
 						<legend class="tabla1"><h3>DATOS DE IDENTIFICACION DEL ALUMNO</h3></legend>
 
 							<div class="tabla1">
 							<hr>
-								<label for="name">NOMBRES</label>
+								<label for="name">Nombres</label>
 								<input id="name" type="text" name="name" value="">
 								<input id="name" type="text" name="name" value="">
 								 </hr>
@@ -43,7 +54,7 @@
 
 								<div class="tabla1">
 								<hr>
-								<label for="name">APELLIDOS</label >
+								<label for="name">Apellidos</label >
 								<input id="name" type="text" name="name" value="">
 								<input id="name" type="text" name="name" value="">
                             </hr>
@@ -51,7 +62,7 @@
 
 							<div class="tabla2">
 							<hr>
-							<label for="name">FECHA DE NACIMIENTO</label>
+							<label for="name">Fecha de Nacimiento</label>
 							<input id="name" type="date" name="name" value="">
 							
 							</hr>
@@ -59,24 +70,26 @@
 
 							<div class="tabla1">
 							<hr>
-								<label for="name">EDAD</label>
+								<label for="name">Edad</label>
 								<input id="name" type="" name="name" value="">
 								</hr>
 								</div>	
 
-								<div class="tabla1">
-								<hr>
-								<label class="label">SEXO</label>
-								<input id="f" type="radio" name="sex" value="1">
-								<label for="f">FEMENINO</label>
-								<input id="m" type="radio" name="sex" value="2">
-								<label for="m">MASCULINO</label>
-								</hr>
-                       			 </div>
+                       			 <div class="tabla1">
+							<hr>
+							<label class="label"for="degree">Sexo 2</label>
+							<select id="degree" name="degree">
+								<option value="0">Seleccione el Sexo</option>
+								<option value="F">Femenino</option>
+								<option value="M">Masculino</option>
+								
+							</select>
+							</hr>
+							</div>
 
 							<div class="tabla1">
 							<hr>
-								<label for="name">LUGAR DE NACIMIENTO</label>
+								<label for="name">Lugar de Nacimiento</label>
 								<input id="name" type="text" name="name" value="">
 						    </hr>
 							</div>
@@ -84,34 +97,34 @@
 
 							<div class="tabla1">
 							<hr>
-								<label class="label" for="address">DIRECCION</label>
+								<label class="label" for="address">Dirección</label>
 								<textarea id="address" name="address"></textarea>
 								</hr>
 						    </div>
 
 							<div class="tabla1">
 								<hr>
-								<label for="phone">TELEFONO</label>
+								<label for="phone">Telefono</label>
 								<input id="phone" type="number" name="phone" value="">
 						    </hr>
 						    </div>
 
 						    <div class="tabla1">
 						    <hr>
-						    	<label class="label" for="disease">TIPO DE DISCAPACIDAD</label>
+						    	<label class="label" for="disease">Tipo de Discapacidad</label>
 								<textarea id="disease" name="disease"></textarea>
 						    </hr>
 						    </div>
 
 						    <div class="tabla1">
 						    <hr>
-						    	<label class="label" for="medicine">MEDICAMENTO AL QUE ES ALERGICO</label>
+						    	<label class="label" for="medicine">Medicamento que es alergico</label>
 								<textarea id="medicine" name="medicine"></textarea>
 						    </hr>
 						    </div>
 						      <div class="tabla1">
 						    <hr>
-						    	<label class="label" for="Typeblood">TIPO DE SANGRE</label>
+						    	<label class="label" for="Typeblood">Tipo de sangre</label>
 								<textarea id="Typeblood" name="Typeblood"></textarea>
 						    </hr>
 						    </div>
@@ -120,7 +133,7 @@
 
 							<div class="tabla1">
 							<hr>
-							<label class="label"for="degree">GRADO A CURSAR</label>
+							<label class="label"for="degree">Grado a cursar</label>
 							<select id="degree" name="degree">
 								<option value="0">Seleccione el Grado</option>
 								<option value="1er">1er Grado</option>
@@ -133,9 +146,24 @@
 							</hr>
 							</div>
 
+								<div class="tabla1">
+								<hr>
+								<label class="label">Guardar</label>
+								<input id="S" type="radio" name="resp" value="1">
+								<label for="S">Si</label>
+								<input id="M" type="radio" name="resp" value="2">
+								<label for="M">No</label>
+								</hr>
+                       			 </div>
+
+                       			 <div class="boton2">
+						<input type="submit" value="guardar" href="view.html" >
+						<input type="reset" >
+						</div>
+					</fieldset>	
+						
 				</form>
 			</article>
-		
 		</section>
 		<footer id="page_footer">
 		<p><h3>&copy; 2016 Derechos Reservados. Creado por: Yerimar Castillo de la UPTM Kléber Ramiréz<h3></p>

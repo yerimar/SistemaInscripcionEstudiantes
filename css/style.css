@@ -36,53 +36,51 @@ aside{
 	float:left;
 	width: 20%;
 }
-section{
-	float: right;
-	width: 100%;
-}
+
 
 .login{
 	float: right;
-	width: 80%;
+	width: 60%;
 
 }
 section#login2{
-	width:100%;
-	float: left;
-	margin: auto;
+	width:80%;
+	float: right;
+	margin: 20px auto;
+	text-align: center;
 }
 .tabla{
 	float: right;
 	width: 80%;
 	
 } 
+.tabla1{
+	width: 100%;
+}
+	article{
+	width: 60%;
+	background: #ccccff;
+	float: left;
+	margin: 60px auto;
+}
 
 .boton2{
 		text-align: center;
 	}
 
 fieldset{
-	width: 100%;
 	background: #ccccff;
 	margin: 50px auto;
 	text-align: center;
 	font-family: times;
 
 }
-article{
-	width: 50%;
-	background: #ccccff;
-	margin: 80px auto;
-	text-align: center;
-	font-family: times;
 
-}
-.formulary{
-	width: 100%;
+article#formulary{
+	float: none;
 	background: #ccccff;
-	margin: 50px auto;
-	text-align: center;
-	font-family: times;
+	border-radius: 10px;
+	margin: 20px auto;
 }
 legend{
 	background: #99CCFF;
@@ -94,7 +92,6 @@ label{
 	width: 100px;
 	text-align: center;
 }
-
 
 
 .morado{
