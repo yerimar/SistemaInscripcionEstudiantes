@@ -46,20 +46,43 @@ section{
 	width: 80%;
 
 }
+section#login2{
+	width:100%;
+	float: left;
+	margin: auto;
+}
 .tabla{
 	float: right;
 	width: 80%;
 	
-}
+} 
+
+.boton2{
+		text-align: center;
+	}
 
 fieldset{
-	width: 40%;
-	margin: center;
+	width: 100%;
 	background: #ccccff;
-	margin: 170px auto;
+	margin: 50px auto;
 	text-align: center;
 	font-family: times;
 
+}
+article{
+	width: 50%;
+	background: #ccccff;
+	margin: 80px auto;
+	text-align: center;
+	font-family: times;
+
+}
+.formulary{
+	width: 100%;
+	background: #ccccff;
+	margin: 50px auto;
+	text-align: center;
+	font-family: times;
 }
 legend{
 	background: #99CCFF;
@@ -118,13 +141,13 @@ footer{
 	text-align: center;
 }
 table{
-	width: 100%;
 	width: 50%;
 	margin: 10px auto;
 	padding: 10px;
 	border: 2px black solid;
 	text-align: center;
 }
+
 table, td, th{
 	border: 2px solid black;
 }
